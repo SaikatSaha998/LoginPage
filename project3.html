@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with Login and Registration Form</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="project3.css">
+    <script src="project3.js" defer></script>
+</head>
+<body>
+    <header class="zone">
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <img src="C:\Users\User\Downloads\happy-vacation-logo (1).png">
+            </a>
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Places</a></li>
+                <li><a href="#">Bookings</a></li>
+                <li><a href="#">Videos</a></li>
+            </ul>
+            <button class="login-btn">LOG IN</button>
+        </nav>
+    </header>
+    <section class="home_section">
+        <div class="overlay">
+          <div class="container">
+            <div class="home">
+              <h1><span>meet</span> people <br>discover <span>places</span> <br><span>enjoy</span> time</h1>
+              <div class="home_buttons">
+                <button class="btn1">Explore World</button>
+              </div>
+            </div>
+          </div>
+        </div>
+     </section>
+
+    <div class="blur-bg-overlay"></div>
+    <div class="form-popup">
+        <span class="close-btn material-symbols-rounded">close</span>
+        <div class="form-box login">
+            <div class="form-details">
+                <h2>Welcome Back</h2>
+                <p>Please log in using your personal information to stay connected with us.</p>
+            </div>
+            <div class="form-content">
+                <h2>LOGIN</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <a href="#" class="forgot-pass-link">Forgot password?</a>
+                    <button type="submit">Log In</button>
+                </form>
+                <div class="bottom-link">
+                    Don't have an account?
+                    <a href="#" id="signup-link">Signup</a>
+                </div>
+            </div>
+        </div>
+        <div class="form-box signup">
+            <div class="form-details">
+                <h2>Create Account</h2>
+                <p>To become a part of our community, please sign up using your personal information.</p>
+            </div>
+            <div class="form-content">
+                <h2>SIGNUP</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Enter your email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Create password</label>
+                    </div>
+                    <div class="policy-text">
+                        <input type="checkbox" id="policy">
+                        <label for="policy">
+                            I agree the
+                            <a href="#" class="option">Terms & Conditions</a>
+                        </label>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </form>
+                <div class="bottom-link">
+                    Already have an account? 
+                    <a href="#" id="login-link">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="services">
+        <div class="container">
+          <div class="title">
+            <h1>Visit World's best <span>places</span></h1>
+            <span class="slogan">enjoy your trip.</span>
+          </div>
+          <div class="services_boxes">
+            <div class="box">
+              <i class="fa-solid fa-hotel"></i>
+              <h4>Tour Point 1</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, aspernatur.</p>
+            </div>
+    
+            <div class="box br">
+              <i class="fa-solid fa-plane"></i>
+              <h4>Tour Point 2</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, aspernatur.</p>
+            </div>
+    
+            <div class="box">
+              <i class="fa-solid fa-mountain-sun"></i>
+              <h4>Tour Point 3</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, aspernatur.</p>
+            </div>
+          </div>
+      </div>
+      </div>
+      <footer>
+        <div class="footercontainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footerNav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">connect</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footerBottom">
+                <p>Copyright &copy;2023; Designed by <span class="designer">Saikat Saha</span></p>
+            </div>
+          </div>
+      </footer>
+</body>
+</html>
